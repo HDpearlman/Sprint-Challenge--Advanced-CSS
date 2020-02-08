@@ -4,9 +4,11 @@
   text-decoration: none;
   color: #454A59;
   font-weight: bold;
-  padding: 1.5%;
+  padding: 0%;
   padding-top: 1%;
   padding-bottom: 0.5%;
+  width: 12%;
+  text-align: center;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -175,8 +177,10 @@ nav {
   margin: auto;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #F6F6F6;
-  border-bottom: 1rem solid #F1F1F1;
+  background-color: rgba(246, 246, 246, 0.6);
+  border-bottom: 0.5rem solid rgba(241, 241, 241, 0.6);
+  position: fixed;
+  width: 100%;
 }
 nav h1 {
   font-size: 4rem;
@@ -197,15 +201,17 @@ nav a {
   text-decoration: none;
   color: #454A59;
   font-weight: bold;
-  padding: 1.5%;
+  padding: 0%;
   padding-top: 1%;
   padding-bottom: 0.5%;
+  width: 12%;
+  text-align: center;
 }
 @media (max-width: 500px) {
   nav a {
     width: 20%;
     font-size: 1.2rem;
-    padding: 3%;
+    padding: 2%;
   }
 }
 footer {
@@ -220,6 +226,14 @@ footer {
 }
 a {
   text-decoration: none;
+}
+.banner-image {
+  padding-top: 7%;
+}
+@media (max-width: 500px) {
+  .banner-image {
+    padding-top: 20%;
+  }
 }
 .banner-image {
   display: flex;

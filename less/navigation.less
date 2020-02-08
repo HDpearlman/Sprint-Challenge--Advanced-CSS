@@ -9,24 +9,18 @@ nav{
     border-bottom: 1rem solid @nav-border;
         h1{
             .header-text();
-            // ;font-size:3rem;
-            // width:100%;
-            // margin:auto;
-            // text-align: center;
-            // color: @header-font-color;
+            @media @phone{
+                font-size:3rem;
+            }
+         
         }
         a{
             .nav-links();
-            // padding:1%;
-            // font-size:1.6rem;
-            // text-decoration:none;
-            // color: @nav-font;
-            // // justify-self: space-between;
-            // font-weight:bold;
-            // // width:20%;
-            // padding:1.5%;
-            // padding-top:2%;
-            // padding-bottom:.5%;
-            
+        @media @phone{
+            width:20%;
+            font-size:1.2rem;
+            padding:3%;
         }
-}
+        }
+   
+    }    

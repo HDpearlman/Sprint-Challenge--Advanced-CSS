@@ -343,3 +343,12 @@ a {
     width: 100%;
   }
 }
+@media (max-width: 500px) {
+  .about-blast {
+    display: none;
+  }
+  .home .space-images .about-sky {
+    display: block;
+    width: 100%;
+  }
+}

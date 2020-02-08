@@ -1,1 +1,45 @@
 // Mixins Here
+.header-text(){
+font-size:3rem;
+            width:100%;
+            margin:auto;
+            text-align: center;
+            color: @header-font-color;
+}
+
+
+.nav-links{
+    padding:1%;
+            font-size:1.6rem;
+            text-decoration:none;
+            color: @nav-font;
+            font-weight:bold;
+            padding:1.5%;
+            padding-top:2%;
+            padding-bottom:.5%;
+}
+
+
+// parametric mixins
+
+.button(@bg-color, @text-color){
+    background-color: @bg-color;
+    color: @text-color;
+    width:25%;
+    border-radius:.5rem;
+    font-size:1.6rem;
+    
+    font-weight:bold;
+    text-align:center;
+    padding:1.5% 1%;
+    a{
+        text-decoration:none;
+    }
+    &:hover{
+        color:@bg-color;
+        background-color:@text-color;
+        // text-decoration:none;
+        // font-weight:bold;
+    }
+
+}

@@ -1,5 +1,22 @@
 // Variables
 
+// keyframes
+
+@keyframes buttonpulse {
+        0% {
+          transform: scale(.90);
+          background-color: darken(@btn-bg-color,10%);
+        }
+        50% {
+          background-color: darken(@btn-bg-color, 50%);
+        }
+        100% {
+          transform: scale(1.1);
+          background-color: lighten(@btn-bg-color, 20%);
+        }
+}
+
+
 // Color pointers
 @nav-bg: @wild-sand;
 @nav-font: @river-bend;

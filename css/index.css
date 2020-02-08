@@ -5,7 +5,7 @@
   color: #454A59;
   font-weight: bold;
   padding: 1.5%;
-  padding-top: 2%;
+  padding-top: 1%;
   padding-bottom: 0.5%;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -179,11 +179,12 @@ nav {
   border-bottom: 1rem solid #F1F1F1;
 }
 nav h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   width: 100%;
   margin: auto;
   text-align: center;
   color: #23293B;
+  padding-top: 1%;
 }
 nav a {
   padding: 1%;
@@ -192,7 +193,7 @@ nav a {
   color: #454A59;
   font-weight: bold;
   padding: 1.5%;
-  padding-top: 2%;
+  padding-top: 1%;
   padding-bottom: 0.5%;
 }
 footer {
@@ -211,6 +212,9 @@ a {
 .banner-image {
   display: flex;
   justify-content: center;
+}
+.banner-image img {
+  border-radius: 1rem;
 }
 .home .intro h2 {
   padding: 15px;
@@ -263,9 +267,6 @@ a {
   font-weight: bold;
   text-align: center;
   padding: 1.5% 1%;
-}
-.home .walk .walk-text .btn a {
-  text-decoration: none;
 }
 .home .walk .walk-text .btn:hover {
   color: #22283A;
